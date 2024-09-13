@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UA IT Solutions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2 {
+            font-family: 'Times New Roman', Times, serif;
+        }
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>UA IT Solutions</h1>
+    <h2>Products Offered</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Package</th>
+                <th>Price</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Basic</td>
+                <td>₱ 500.00</td>
+                <td>Package includes a fully functional website with desired specifications.</td>
+            </tr>
+            <tr>
+                <td>Premium</td>
+                <td>₱ 1000.00</td>
+                <td>Enjoy all the benefits of the basic package and also includes site support and maintenance.</td>
+            </tr>
+            <tr>
+                <td>Exclusive</td>
+                <td>₱ 2500.00</td>
+                <td>Enjoy all the benefits of our advanced package and also includes site support and extended maintenance.</td>
+            </tr>
+            <tr>
+                <tfoot>
+                   <tr>
+                       <td align="center" colspan="3"><Strong>ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤAdditional features after the initial project are inclusive of charges.</Strong></td>
+                   </tr>
+                </tfoot>
+    </table>
+
+    <h2>Contact Form</h2>
+    <form action="/submit_form" method="post">
+        <label for="first-name">First Name:</label><br>
+        <input type="text" id="first-name" name="first-name"><br><br>
+
+        <label for="last-name">Last Name:</label><br>
+        <input type="text" id="last-name" name="last-name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="contact-number">Contact Number:</label><br>
+        <input type="text" id="contact-number" name="contact-number"><br><br>
+
+        <label for="service-type">Service Type:</label><br>
+        <select id="service-type" name="service-type">
+            <option value="front-end">Front End Programming</option>
+            <option value="back-end">Back End Programming</option>
+            <option value="full-stack">Full Stack Programming</option>
+        </select><br><br>
+
+        <label for="preferred-contact">Preferred Contact:</label><br>
+        <input type="checkbox" id="email-contact" name="preferred-contact" value="email">
+        <label for="email-contact">Email</label><br>
+        <input type="checkbox" id="phone-contact" name="preferred-contact" value="phone">
+        <label for="phone-contact">Phone</label><br><br>
+
+        <label for="package">Package:</label><br>
+        <input type="radio" id="basic-package" name="package" value="basic">
+        <label for="basic-package">Basic</label><br>
+        <input type="radio" id="premium-package" name="package" value="premium">
+        <label for="premium-package">Premium</label><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Send Inquiry">
+<br>
+<br>
+        <a href="y2 html.html" URL goes here.”> logout
+    </form>
+</body>

@@ -1,0 +1,21 @@
+body {
+    background-color: #f0f2f5;
+}
+
+.facebook-logo {
+    font-size: 48px;
+    color: #1e2fca;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card {
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.lead {
+    font-size: 24px;
+    color: #1c1e21;
+}
